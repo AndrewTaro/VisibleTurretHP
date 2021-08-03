@@ -4,42 +4,34 @@ MOD_NAME = 'VisibleTurretHP'
 DEBUG_MODE = False
 
 class VisibleTurretHP:
+    SHIPS_WITHOUT_MAINGUN = ['AirCarrier', 'Auxiliary']
     
     def __init__(self):
-        with open('log.txt', 'w') as f:
-            f.write('Mod {0} loaded. {1}\n\n'.format(MOD_NAME, utils.timeNow()))
-
-        self.OWN_SHIP_ID = None
-        self.players = {}
-        
+        self.players = {}        
         self.gp = GameParamsReader()
-
-        events.onBattleStart(self.get_players) #Create self.players dict
-        events.onBattleQuit(self.del_players) #Clear self.players after the battle
-        events.onBattleEnd(self.del_players)
-        events.onReceiveShellInfo(self.on_receive_shell)
-        flash.addExternalCallback('python_log', self.flash_log)
+        self.register_events()
         
         if DEBUG_MODE:
             devmenu.enable()
-
-    def _get_my_id(self):
-        me = battle.getSelfPlayerInfo()
-        self.OWN_SHIP_ID = me['shipId']
+            
+    def register_events(self):
+        events.onBattleStart(self.get_players) #Creates self.players dict when the battle starts
+        events.onBattleQuit(self.del_players) #Clears self.players after the battle ends
+        events.onBattleEnd(self.del_players)
+        events.onReceiveShellInfo(self.on_receive_shell)
 
     def del_players(self, *args):
         self.players.clear()
 
     def get_players(self):
-        self._get_my_id()
-        players = battle.getPlayersInfo() #<- fuck this function.
+        players = battle.getPlayersInfo()
         #This returns tons of None while getPlayerInfoBySOMETHING throws back non-None values.
         #I need to use getPlayerInfo again just to get shipComponents.
 
         for player_id in players:
             player = battle.getPlayerInfo(player_id)
 
-            if player['shipInfo']['subtype'] != 'AirCarrier': #CVs dont have turret            
+            if player['shipInfo']['subtype'] not in self.SHIPS_WITHOUT_MAINGUN: #CV/Auxiliary don't have turret
                 ship_id = player['shipId']
                 ship = player['shipConfig']['name']
                 artillery = player['shipComponents']['artillery']
@@ -51,7 +43,7 @@ class VisibleTurretHP:
                     )
         
         if DEBUG_MODE:
-            with open('test.json', 'w') as f:
+            with open('players.json', 'w') as f:
                 j = utils.jsonEncode(self.players, indent=4)
                 f.write(j)
         
@@ -59,16 +51,16 @@ class VisibleTurretHP:
         module_hit = (hitType >> 15) & 0b1 #16th digit
 
         if damage > 0 and module_hit and victimId in self.players:
-            #The last condition: CV players are excluded from dict.
+            #The last condition: SHIPS_WITHOUT_MAINGUN are excluded from dict.
         
             armor_id = matId & 0b11111111
             hl_id = (matId >> 8) & 0b11111111
-            
-            player = self.players[victimId]
-            barbettes = player['artillery']['barbettes']
+            turret_id = None
+            barbettes = self.players[victimId]['artillery']['barbettes']
             
             shell = battle.getAmmoParams(ammoId)
             damage_to_turret = shell.alphaDamage * 0.1
+            is_incoming = bool(hitType & 0b1)
             
             if DEBUG_MODE:
                 self.log('victim: {}, armorId: {}, hl_id: {}, damage: {}, hit_type: {}, hl_info: {}, module_id_in_range: {}, armor_id_in_barbette: {}'.format(
@@ -77,38 +69,42 @@ class VisibleTurretHP:
             if 32 > hl_id > 0:
                 #Main battery has hl_id which starts from 1.
                 #estimated it doesn't exceed 32.
-                self.turret_damage(damage_to_turret, hl_id, victimId)
+                turret_id = hl_id
                 
             elif armor_id in barbettes:
-                self.turret_damage(damage_to_turret, barbettes[armor_id], victimId)
+                turret_id = barbettes[armor_id]
+                
+            if turret_id is not None:
+                self.turret_damage(damage_to_turret, turret_id, victimId, is_incoming)
 
-    def turret_damage(self, damage, hl_id, vic_id):
+    def turret_damage(self, damage, hl_id, vic_id, is_incoming):
         turret = self.players[vic_id]['artillery'][hl_id]
         turret['maxHP'] -= damage
         turret['maxHPwithMod'] -= damage
         turret['receivedDamage'] += damage
         
-        flash.call('flash.displayDamage', [hl_id, turret['maxHP'], turret['maxHPwithMod'], turret['receivedDamage'], self.is_self_damage(vic_id)])
+        flash.call('visibleTurretHP.displayDamage', [hl_id, turret['maxHP'], turret['maxHPwithMod'], turret['receivedDamage'], is_incoming])
 
-    def is_self_damage(self, victim_id):
-        return self.OWN_SHIP_ID == victim_id
-
-    def flash_log(self, *args):
-        self.log(args)
-
-    def log(self, *args):
+    def log(self, *args, **kargs):
         with open('log.txt', 'a') as f:
-            f.write('{0}\n'.format(args))
+            f.write('{} | {}, {}\n'.format(utils.timeNow(), args, kargs))
     
 
 class GameParamsReader:
+    GAMEPARAMS_FILENAMES = ['turretHP_and_barbettes.json', 'ships.json']
     
     def __init__(self):
         self._gp = None
-
-        with open('ships.json', 'r') as f:
-            str_gp = f.read()
-            self._gp = utils.jsonDecode(str_gp)
+        self._load_file()
+            
+    def _load_file(self):
+        for filename in self.GAMEPARAMS_FILENAMES:
+            try:
+                with open(filename, 'r') as f:
+                    self._gp = utils.jsonDecode(f.read())
+                    break
+            except:
+                continue
 
     def _get_guns_params(self, ship, art):
         gp = self._gp[ship][art]
@@ -116,7 +112,6 @@ class GameParamsReader:
                     maxHP=gp[key]['HitLocationArtillery']['maxHP'],
                     maxHPwithMod=gp[key]['HitLocationArtillery']['maxHP']*1.5,
                     receivedDamage=0.0,
-                    #armor=gp[key]['armor'],
                 )
                 for key in gp if key.startswith('HP_')}
                 
@@ -126,7 +121,7 @@ class GameParamsReader:
     def _get_barbettes(self, ship, hull):
         """
         converts {turret: [armor_ids]} to {armor_id: turret_id}
-        returns an empty dict if barbettes is {}
+        returns an empty dict if barbettes are {}
         """
         barbettes = self._gp[ship][hull]['barbettes']
         return {
