@@ -4,7 +4,7 @@ MOD_NAME = 'VisibleTurretHP'
 DEBUG_MODE = False
 
 class VisibleTurretHP:
-    SHIPS_WITHOUT_MAINGUN = ['AirCarrier', 'Auxiliary']
+    CLASSES_WITH_MAINGUN = ['Battleship', 'Cruiser', 'Destroyer']
     
     def __init__(self):
         self.players = {}        
@@ -31,7 +31,7 @@ class VisibleTurretHP:
         for player_id in players:
             player = battle.getPlayerInfo(player_id)
 
-            if player['shipInfo']['subtype'] not in self.SHIPS_WITHOUT_MAINGUN: #CV/Auxiliary don't have turret
+            if player['shipInfo']['subtype'] in self.CLASSES_WITH_MAINGUN: #CV/Auxiliary don't have turret
                 ship_id = player['shipId']
                 ship = player['shipConfig']['name']
                 artillery = player['shipComponents']['artillery']
@@ -51,7 +51,7 @@ class VisibleTurretHP:
         module_hit = (hitType >> 15) & 0b1 #16th digit
 
         if damage > 0 and module_hit and victimId in self.players:
-            #The last condition: SHIPS_WITHOUT_MAINGUN are excluded from dict.
+            #The last condition: CLASSES_WITH_MAINGUN are excluded from dict.
         
             armor_id = matId & 0b11111111
             hl_id = (matId >> 8) & 0b11111111
