@@ -142,56 +142,6 @@
             }
         }
     },
-    "PXSB103_France_H2020": {
-        "A_Hull": {
-            "barbettes": {
-                "HP_XGM_1": [
-                    65670,
-                    131206,
-                    65710,
-                    65750
-                ],
-                "HP_XGM_2": [
-                    65671,
-                    131207,
-                    65711,
-                    65751
-                ]
-            }
-        },
-        "C_Hull": {
-            "barbettes": {
-                "HP_XGM_1": [
-                    65670,
-                    131206,
-                    65710,
-                    65750
-                ],
-                "HP_XGM_2": [
-                    65671,
-                    131207,
-                    65711,
-                    65751
-                ]
-            }
-        },
-        "B_Hull": {
-            "barbettes": {
-                "HP_XGM_1": [
-                    65670,
-                    131206,
-                    65710,
-                    65750
-                ],
-                "HP_XGM_2": [
-                    65671,
-                    131207,
-                    65711,
-                    65751
-                ]
-            }
-        }
-    },
     "PASA002_Bogue_1942": {
         "A_Hull": {
             "barbettes": {}
@@ -522,7 +472,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_FGM_4": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -549,7 +499,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_FGM_4": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -1536,6 +1486,56 @@
             }
         }
     },
+    "PXSB103_France_H2020": {
+        "A_Hull": {
+            "barbettes": {
+                "HP_XGM_1": [
+                    65670,
+                    131206,
+                    65710,
+                    65750
+                ],
+                "HP_XGM_2": [
+                    65671,
+                    131207,
+                    65711,
+                    65751
+                ]
+            }
+        },
+        "B_Hull": {
+            "barbettes": {
+                "HP_XGM_1": [
+                    65670,
+                    131206,
+                    65710,
+                    65750
+                ],
+                "HP_XGM_2": [
+                    65671,
+                    131207,
+                    65711,
+                    65751
+                ]
+            }
+        },
+        "C_Hull": {
+            "barbettes": {
+                "HP_XGM_1": [
+                    65670,
+                    131206,
+                    65710,
+                    65750
+                ],
+                "HP_XGM_2": [
+                    65671,
+                    131207,
+                    65711,
+                    65751
+                ]
+            }
+        }
+    },
     "PJSC705_Myoko": {
         "A_Hull": {
             "barbettes": {
@@ -1640,7 +1640,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -1657,7 +1657,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -2046,7 +2046,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -2063,7 +2063,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -2082,14 +2082,26 @@
         }
     },
     "PJSD010_Kagero_1943": {
-        "A_Hull_1943": {
+        "C_Hull_1945": {
             "barbettes": {}
         },
         "B_Hull_1941": {
             "barbettes": {}
         },
-        "C_Hull_1945": {
+        "A_Hull_1943": {
             "barbettes": {}
+        },
+        "C1_127_50": {
+            "HP_JGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
         },
         "AB1_127_50": {
             "HP_JGM_1": {
@@ -2103,18 +2115,6 @@
                 }
             },
             "HP_JGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
-        "C1_127_50": {
-            "HP_JGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
                 }
@@ -3113,7 +3113,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -3140,7 +3140,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -3293,7 +3293,7 @@
                 }
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -3310,7 +3310,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -3470,7 +3470,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -3492,7 +3492,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -3626,50 +3626,6 @@
             }
         }
     },
-    "PBSC505_Exeter": {
-        "A_Hull": {
-            "barbettes": {
-                "HP_BGM_2": [
-                    65671,
-                    131207,
-                    65711,
-                    131247,
-                    65751
-                ],
-                "HP_BGM_3": [
-                    65672,
-                    131208,
-                    65712,
-                    131248,
-                    65752
-                ],
-                "HP_BGM_1": [
-                    65670,
-                    131206,
-                    65710,
-                    131246,
-                    65750
-                ]
-            }
-        },
-        "A1_Artillery": {
-            "HP_BGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 5000.0
-                }
-            },
-            "HP_BGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 5000.0
-                }
-            },
-            "HP_BGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 5000.0
-                }
-            }
-        }
-    },
     "PGSB506_Prinz_Eithel_Friedrich": {
         "A_Hull": {
             "barbettes": {
@@ -3725,50 +3681,16 @@
         }
     },
     "PJSD007_Fubuki_1944": {
-        "A_Hull_1944": {
+        "C_Hull_1943": {
             "barbettes": {}
         },
-        "C_Hull_1943": {
+        "A_Hull_1944": {
             "barbettes": {}
         },
         "B_Hull_1944": {
             "barbettes": {}
         },
-        "B2_127_50": {
-            "HP_JGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
-        "A1_127_50": {
-            "HP_JGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
-        "C2_127_50": {
+        "C1_127_50": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -3797,13 +3719,47 @@
                 }
             }
         },
-        "C1_127_50": {
+        "B2_127_50": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
                 }
             },
             "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        },
+        "C2_127_50": {
+            "HP_JGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        },
+        "A1_127_50": {
+            "HP_JGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
                 }
@@ -3916,71 +3872,49 @@
             }
         }
     },
-    "PASD006_Mahan_1936": {
-        "A_Hull": {
-            "barbettes": {}
-        },
-        "B_Hull": {
-            "barbettes": {}
-        },
-        "B_Artillery": {
-            "HP_AGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_AGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_AGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_AGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_AGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
-        "A_Artillery": {
-            "HP_AGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_AGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_AGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_AGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_AGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        }
-    },
     "PASX005_St_Clair": {
         "HullDefault": {
             "barbettes": {}
+        }
+    },
+    "PBSB547_Renown_1944": {
+        "A_Hull": {
+            "barbettes": {
+                "HP_BGM_2": [
+                    65671,
+                    131207,
+                    65711,
+                    65751
+                ],
+                "HP_BGM_3": [
+                    65672,
+                    65712,
+                    65752
+                ],
+                "HP_BGM_1": [
+                    65670,
+                    131206,
+                    65710,
+                    65750
+                ]
+            }
+        },
+        "A_Artillery": {
+            "HP_BGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 10000.0
+                }
+            },
+            "HP_BGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 10000.0
+                }
+            },
+            "HP_BGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 10000.0
+                }
+            }
         }
     },
     "PJSB519_Hizen": {
@@ -4516,18 +4450,6 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
-            "HP_AGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_AGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
         "A1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
@@ -4545,6 +4467,18 @@
                 }
             },
             "HP_AGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        },
+        "B1_Artillery": {
+            "HP_AGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_AGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
                 }
@@ -4856,7 +4790,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -4873,7 +4807,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -5136,6 +5070,23 @@
         "B_Hull_1944": {
             "barbettes": {}
         },
+        "B1_203_55": {
+            "HP_AGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 5000.0
+                }
+            },
+            "HP_AGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 5000.0
+                }
+            },
+            "HP_AGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 5000.0
+                }
+            }
+        },
         "B2_203_55": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
@@ -5169,19 +5120,46 @@
                     "maxHP": 5000.0
                 }
             }
+        }
+    },
+    "PBSC505_Exeter": {
+        "A_Hull": {
+            "barbettes": {
+                "HP_BGM_2": [
+                    65671,
+                    131207,
+                    65711,
+                    131247,
+                    65751
+                ],
+                "HP_BGM_3": [
+                    65672,
+                    131208,
+                    65712,
+                    131248,
+                    65752
+                ],
+                "HP_BGM_1": [
+                    65670,
+                    131206,
+                    65710,
+                    131246,
+                    65750
+                ]
+            }
         },
-        "B1_203_55": {
-            "HP_AGM_1": {
+        "A1_Artillery": {
+            "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
                 }
             },
-            "HP_AGM_3": {
+            "HP_BGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
                 }
             },
-            "HP_AGM_2": {
+            "HP_BGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
                 }
@@ -5819,6 +5797,44 @@
             }
         }
     },
+    "PGSC516_Leipzig": {
+        "A_Hull": {
+            "barbettes": {
+                "HP_GGM_3": [
+                    65672,
+                    65712,
+                    65752
+                ],
+                "HP_GGM_2": [
+                    65671,
+                    65711,
+                    65751
+                ],
+                "HP_GGM_1": [
+                    65670,
+                    65710,
+                    65750
+                ]
+            }
+        },
+        "A_Artillery": {
+            "HP_GGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_GGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_GGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            }
+        }
+    },
     "PWSD104_Klas_Horn": {
         "A_Hull": {
             "barbettes": {}
@@ -5826,7 +5842,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_WGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -5843,7 +5859,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_WGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -6404,7 +6420,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -6421,7 +6437,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -6732,13 +6748,13 @@
         }
     },
     "PJSA006_Zuiho_1944": {
+        "C_Hull_1944": {
+            "barbettes": {}
+        },
         "B_Hull_1942": {
             "barbettes": {}
         },
         "A_Hull_1940": {
-            "barbettes": {}
-        },
-        "C_Hull_1944": {
             "barbettes": {}
         }
     },
@@ -7038,7 +7054,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -7070,7 +7086,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -7538,6 +7554,47 @@
             }
         }
     },
+    "PFSC210_Marseille": {
+        "A_Hull": {
+            "barbettes": {
+                "HP_FGM_2": [
+                    65671,
+                    131207,
+                    65711,
+                    65751
+                ],
+                "HP_FGM_3": [
+                    65672,
+                    131208,
+                    65712,
+                    65752
+                ],
+                "HP_FGM_1": [
+                    65670,
+                    131206,
+                    65710,
+                    65750
+                ]
+            }
+        },
+        "A_Artillery": {
+            "HP_FGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 7500.0
+                }
+            },
+            "HP_FGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 7500.0
+                }
+            },
+            "HP_FGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 7500.0
+                }
+            }
+        }
+    },
     "PRSS110_K_type": {
         "A_Hull": {
             "barbettes": {}
@@ -7609,6 +7666,70 @@
             "HP_RGM_4": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
+                }
+            }
+        }
+    },
+    "PXSC009_Mogami_H2018": {
+        "A_Hull": {
+            "barbettes": {
+                "HP_JGM_2": [
+                    65671,
+                    131207,
+                    65711,
+                    65751
+                ],
+                "HP_JGM_3": [
+                    65672,
+                    131208,
+                    65712,
+                    65752
+                ],
+                "HP_JGM_1": [
+                    65670,
+                    131206,
+                    65710,
+                    131246,
+                    65750
+                ],
+                "HP_JGM_4": [
+                    65673,
+                    131209,
+                    65713,
+                    65753
+                ],
+                "HP_JGM_5": [
+                    65674,
+                    131210,
+                    65714,
+                    65754
+                ]
+            }
+        },
+        "A_Artillery": {
+            "HP_JGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_JGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_JGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_JGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
                 }
             }
         }
@@ -7864,7 +7985,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -7886,7 +8007,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -8219,7 +8340,7 @@
                 ]
             }
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -8236,7 +8357,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -8366,10 +8487,10 @@
         "A_Hull": {
             "barbettes": {}
         },
-        "C_Hull": {
+        "B_Hull": {
             "barbettes": {}
         },
-        "B_Hull": {
+        "C_Hull": {
             "barbettes": {}
         }
     },
@@ -8645,7 +8766,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_ZGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -8662,7 +8783,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_ZGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -9113,7 +9234,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -9130,7 +9251,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -9664,73 +9785,6 @@
             }
         }
     },
-    "PGSB208_Zieten": {
-        "A_Hull": {
-            "barbettes": {
-                "HP_GGM_3": [
-                    65672,
-                    131208,
-                    196744,
-                    65712,
-                    65752
-                ],
-                "HP_GGM_2": [
-                    65671,
-                    131207,
-                    196743,
-                    65711,
-                    65751
-                ],
-                "HP_GGM_1": [
-                    65670,
-                    131206,
-                    65710,
-                    65750
-                ]
-            }
-        },
-        "B_Hull": {
-            "barbettes": {
-                "HP_GGM_3": [
-                    65672,
-                    131208,
-                    196744,
-                    65712,
-                    65752
-                ],
-                "HP_GGM_2": [
-                    65671,
-                    131207,
-                    196743,
-                    65711,
-                    65751
-                ],
-                "HP_GGM_1": [
-                    65670,
-                    131206,
-                    65710,
-                    65750
-                ]
-            }
-        },
-        "AB_Artillery": {
-            "HP_GGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 10000.0
-                }
-            },
-            "HP_GGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 10000.0
-                }
-            },
-            "HP_GGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 10000.0
-                }
-            }
-        }
-    },
     "PBSD106_Icarus": {
         "A_Hull": {
             "barbettes": {}
@@ -9822,23 +9876,6 @@
         "ABC_Hull": {
             "barbettes": {}
         },
-        "B_Artillery": {
-            "HP_JGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
         "A_Artillery": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
@@ -9857,6 +9894,23 @@
             }
         },
         "C_Artillery": {
+            "HP_JGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        },
+        "B_Artillery": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -10127,7 +10181,7 @@
                 ]
             }
         },
-        "A2_Artillery": {
+        "B2_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -10149,7 +10203,7 @@
                 }
             }
         },
-        "B1_Artillery": {
+        "A2_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -10193,7 +10247,7 @@
                 }
             }
         },
-        "B2_Artillery": {
+        "B1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -10217,13 +10271,13 @@
         }
     },
     "PJSA012_Zuikaku_1944": {
-        "A_Hull_1941": {
+        "C_Hull_1944": {
             "barbettes": {}
         },
         "B_Hull_1943": {
             "barbettes": {}
         },
-        "C_Hull_1944": {
+        "A_Hull_1941": {
             "barbettes": {}
         }
     },
@@ -10266,7 +10320,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -10283,7 +10337,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -10297,6 +10351,18 @@
             "HP_BGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
+                }
+            }
+        }
+    },
+    "PBSS110_Thrasher": {
+        "A_Hull": {
+            "barbettes": {}
+        },
+        "A_Artillery": {
+            "HP_BGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
                 }
             }
         }
@@ -11253,7 +11319,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -11275,7 +11341,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -12107,7 +12173,7 @@
                 ]
             }
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_IGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -12124,7 +12190,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_IGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -12704,7 +12770,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -12726,7 +12792,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -13581,58 +13647,6 @@
                 }
             }
         },
-        "A1_152_50": {
-            "HP_AGM_11": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_10": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_13": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_12": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_14": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            }
-        },
         "A2_152_50": {
             "HP_AGM_11": {
                 "HitLocationArtillery": {
@@ -13756,6 +13770,58 @@
                     "maxHP": 3750.0
                 }
             }
+        },
+        "A1_152_50": {
+            "HP_AGM_11": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_10": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_13": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_12": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_14": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            }
         }
     },
     "PISD102_Curtatone": {
@@ -13811,11 +13877,28 @@
         }
     },
     "PJSD003_Isokaze_1917": {
+        "B_Hull_1925": {
+            "barbettes": {}
+        },
         "A_Hull_1917": {
             "barbettes": {}
         },
-        "B_Hull_1925": {
-            "barbettes": {}
+        "A1_120_40": {
+            "HP_JGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
         },
         "B1_120_40": {
             "HP_JGM_1": {
@@ -13834,23 +13917,6 @@
                 }
             },
             "HP_JGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
-        "A1_120_40": {
-            "HP_JGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
                 }
@@ -14253,7 +14319,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -14280,7 +14346,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -14411,7 +14477,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -14433,7 +14499,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -14713,7 +14779,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -14735,7 +14801,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -14765,7 +14831,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -14787,7 +14853,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -14995,6 +15061,38 @@
         "B_Hull": {
             "barbettes": {}
         },
+        "A1_Artillery": {
+            "HP_RGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_6": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        },
         "B1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
@@ -15032,38 +15130,6 @@
                 }
             },
             "HP_RGM_8": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
-        "A1_Artillery": {
-            "HP_RGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_6": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_5": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
                 }
@@ -15258,7 +15324,7 @@
                 ]
             }
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -15275,7 +15341,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -15649,6 +15715,68 @@
             }
         }
     },
+    "PASD006_Mahan_1936": {
+        "A_Hull": {
+            "barbettes": {}
+        },
+        "B_Hull": {
+            "barbettes": {}
+        },
+        "A_Artillery": {
+            "HP_AGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_AGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_AGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_AGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_AGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        },
+        "B_Artillery": {
+            "HP_AGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_AGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_AGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_AGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_AGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        }
+    },
     "PJSD598_Black_Asashio": {
         "A_Hull": {
             "barbettes": {}
@@ -15881,7 +16009,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -15903,7 +16031,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -16157,7 +16285,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -16179,7 +16307,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -16421,7 +16549,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -16453,7 +16581,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -16774,7 +16902,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -16796,7 +16924,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -16993,7 +17121,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_ZGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -17015,7 +17143,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_ZGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -17134,17 +17262,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
-            "HP_GGM_12": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_GGM_11": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
+        "A1_Artillery": {
             "HP_GGM_10": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -17196,7 +17314,17 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
+            "HP_GGM_12": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_GGM_11": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
             "HP_GGM_10": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -17390,11 +17518,23 @@
         }
     },
     "PJSD002_Umikaze_1925": {
+        "A_Hull_1911": {
+            "barbettes": {}
+        },
         "B_Hull_1918": {
             "barbettes": {}
         },
-        "A_Hull_1911": {
-            "barbettes": {}
+        "A1_120_40": {
+            "HP_JGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
         },
         "B1_120_40": {
             "HP_JGM_1": {
@@ -17408,18 +17548,6 @@
                 }
             },
             "HP_JGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
-        "A1_120_40": {
-            "HP_JGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
                 }
@@ -17684,6 +17812,28 @@
         "B_Hull": {
             "barbettes": {}
         },
+        "A1_Artillery": {
+            "HP_JGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_JGM_8": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_JGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            }
+        },
         "B1_Artillery": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
@@ -17721,28 +17871,6 @@
                 }
             },
             "HP_JGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            }
-        },
-        "A1_Artillery": {
-            "HP_JGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_JGM_8": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_JGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_JGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
                 }
@@ -18087,7 +18215,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_FGM_6": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -18129,7 +18257,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_FGM_6": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -18697,7 +18825,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -18714,7 +18842,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -19065,7 +19193,7 @@
                 ]
             }
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -19082,7 +19210,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -19333,7 +19461,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -19355,7 +19483,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -19385,7 +19513,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -19402,7 +19530,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -19496,10 +19624,10 @@
         }
     },
     "PASC002_Chester_1908": {
-        "A_Hull_1908": {
+        "B_Hull_1917": {
             "barbettes": {}
         },
-        "B_Hull_1917": {
+        "A_Hull_1908": {
             "barbettes": {}
         },
         "B2_152_50": {
@@ -19534,6 +19662,28 @@
                 }
             }
         },
+        "A2_152_50": {
+            "HP_AGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            }
+        },
         "B1_127_50": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
@@ -19563,28 +19713,6 @@
             "HP_AGM_5": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
-                }
-            }
-        },
-        "A2_152_50": {
-            "HP_AGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
                 }
             }
         },
@@ -19878,28 +20006,6 @@
                 ]
             }
         },
-        "B1_Artillery": {
-            "HP_RGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 7500.0
-                }
-            },
-            "HP_RGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 7500.0
-                }
-            },
-            "HP_RGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 7500.0
-                }
-            },
-            "HP_RGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 7500.0
-                }
-            }
-        },
         "A1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
@@ -19921,6 +20027,36 @@
                     "maxHP": 7500.0
                 }
             }
+        },
+        "B1_Artillery": {
+            "HP_RGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 7500.0
+                }
+            },
+            "HP_RGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 7500.0
+                }
+            },
+            "HP_RGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 7500.0
+                }
+            },
+            "HP_RGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 7500.0
+                }
+            }
+        }
+    },
+    "PBSS106_Undine": {
+        "A_Hull": {
+            "barbettes": {}
+        },
+        "B_Hull": {
+            "barbettes": {}
         }
     },
     "PFSC810_Henri_IV": {
@@ -20096,7 +20232,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -20118,7 +20254,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -20383,70 +20519,6 @@
             }
         }
     },
-    "PXSC009_Mogami_H2018": {
-        "A_Hull": {
-            "barbettes": {
-                "HP_JGM_2": [
-                    65671,
-                    131207,
-                    65711,
-                    65751
-                ],
-                "HP_JGM_3": [
-                    65672,
-                    131208,
-                    65712,
-                    65752
-                ],
-                "HP_JGM_1": [
-                    65670,
-                    131206,
-                    65710,
-                    131246,
-                    65750
-                ],
-                "HP_JGM_4": [
-                    65673,
-                    131209,
-                    65713,
-                    65753
-                ],
-                "HP_JGM_5": [
-                    65674,
-                    131210,
-                    65714,
-                    65754
-                ]
-            }
-        },
-        "A_Artillery": {
-            "HP_JGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_JGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_JGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_JGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_JGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            }
-        }
-    },
     "PFSC108_Charles_Martel": {
         "A_Hull": {
             "barbettes": {
@@ -20522,7 +20594,7 @@
                 }
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_FGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -20539,7 +20611,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_FGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -20911,41 +20983,7 @@
         "C_Hull_1942": {
             "barbettes": {}
         },
-        "C2_120_45": {
-            "HP_JGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
         "B1_120_45": {
-            "HP_JGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_JGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
-        "A1_120_45": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -20974,6 +21012,40 @@
                 }
             },
             "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        },
+        "C2_120_45": {
+            "HP_JGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        },
+        "A1_120_45": {
+            "HP_JGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_JGM_4": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
                 }
@@ -21185,7 +21257,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -21212,7 +21284,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -21346,7 +21418,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -21368,7 +21440,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -21771,7 +21843,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -21793,7 +21865,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -21900,7 +21972,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_FGM_4": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -21922,7 +21994,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_FGM_4": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -22036,7 +22108,7 @@
                 ]
             }
         },
-        "A_Artillery": {
+        "A1_Artillery": {
             "HP_FGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -22418,7 +22490,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_IGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -22440,7 +22512,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_IGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -22538,13 +22610,13 @@
         }
     },
     "PASC007_Cleveland_1945": {
-        "A_Hull_1943": {
-            "barbettes": {}
-        },
         "B_Hull_1945": {
             "barbettes": {}
         },
-        "AB1_152_47": {
+        "A_Hull_1943": {
+            "barbettes": {}
+        },
+        "AB2_152_47": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -22566,7 +22638,7 @@
                 }
             }
         },
-        "AB2_152_47": {
+        "AB1_152_47": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -22780,7 +22852,7 @@
         "A_Hull": {
             "barbettes": {}
         },
-        "A2_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 20000.0
@@ -22802,7 +22874,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "A2_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 20000.0
@@ -22982,7 +23054,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -23004,7 +23076,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -23088,7 +23160,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -23110,7 +23182,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -23178,11 +23250,6 @@
                     "maxHP": 1000000.0
                 }
             }
-        }
-    },
-    "PASA006_Independence_1945": {
-        "A_Hull_1944": {
-            "barbettes": {}
         }
     },
     "PWSD509_Velos": {
@@ -23335,47 +23402,6 @@
             }
         }
     },
-    "PFSC210_Marseille": {
-        "A_Hull": {
-            "barbettes": {
-                "HP_FGM_2": [
-                    65671,
-                    131207,
-                    65711,
-                    65751
-                ],
-                "HP_FGM_3": [
-                    65672,
-                    131208,
-                    65712,
-                    65752
-                ],
-                "HP_FGM_1": [
-                    65670,
-                    131206,
-                    65710,
-                    65750
-                ]
-            }
-        },
-        "A_Artillery": {
-            "HP_FGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 7500.0
-                }
-            },
-            "HP_FGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 7500.0
-                }
-            },
-            "HP_FGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 7500.0
-                }
-            }
-        }
-    },
     "PZSD105_Jian_Wei": {
         "A_Hull": {
             "barbettes": {}
@@ -23509,10 +23535,10 @@
         "A_Hull": {
             "barbettes": {}
         },
-        "C_Hull": {
+        "B_Hull": {
             "barbettes": {}
         },
-        "B_Hull": {
+        "C_Hull": {
             "barbettes": {}
         }
     },
@@ -23888,6 +23914,73 @@
             }
         }
     },
+    "PGSB208_Zieten": {
+        "A_Hull": {
+            "barbettes": {
+                "HP_GGM_3": [
+                    65672,
+                    131208,
+                    196744,
+                    65712,
+                    65752
+                ],
+                "HP_GGM_2": [
+                    65671,
+                    131207,
+                    196743,
+                    65711,
+                    65751
+                ],
+                "HP_GGM_1": [
+                    65670,
+                    131206,
+                    65710,
+                    65750
+                ]
+            }
+        },
+        "B_Hull": {
+            "barbettes": {
+                "HP_GGM_3": [
+                    65672,
+                    131208,
+                    196744,
+                    65712,
+                    65752
+                ],
+                "HP_GGM_2": [
+                    65671,
+                    131207,
+                    196743,
+                    65711,
+                    65751
+                ],
+                "HP_GGM_1": [
+                    65670,
+                    131206,
+                    65710,
+                    65750
+                ]
+            }
+        },
+        "AB_Artillery": {
+            "HP_GGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 10000.0
+                }
+            },
+            "HP_GGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 10000.0
+                }
+            },
+            "HP_GGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 10000.0
+                }
+            }
+        }
+    },
     "PXSC006_Norma": {
         "A_Hull": {
             "barbettes": {}
@@ -23983,7 +24076,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -24005,7 +24098,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -24211,6 +24304,28 @@
         "B_Hull_1944": {
             "barbettes": {}
         },
+        "B1_203_50": {
+            "HP_AGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 5000.0
+                }
+            },
+            "HP_AGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 5000.0
+                }
+            },
+            "HP_AGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 5000.0
+                }
+            },
+            "HP_AGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 5000.0
+                }
+            }
+        },
         "A1_203_50": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
@@ -24234,28 +24349,6 @@
             }
         },
         "B2_203_55": {
-            "HP_AGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 5000.0
-                }
-            },
-            "HP_AGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 5000.0
-                }
-            },
-            "HP_AGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 5000.0
-                }
-            },
-            "HP_AGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 5000.0
-                }
-            }
-        },
-        "B1_203_50": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -24471,7 +24564,7 @@
                 ]
             }
         },
-        "C_Hull": {
+        "B_Hull": {
             "barbettes": {
                 "HP_JGM_2": [
                     65671,
@@ -24490,7 +24583,7 @@
                 ]
             }
         },
-        "B_Hull": {
+        "C_Hull": {
             "barbettes": {
                 "HP_JGM_2": [
                     65671,
@@ -25300,30 +25393,6 @@
                 ]
             }
         },
-        "C_Hull": {
-            "barbettes": {
-                "HP_XGM_1": [
-                    65670,
-                    65710,
-                    65750
-                ],
-                "HP_XGM_2": [
-                    65671,
-                    65711,
-                    65751
-                ],
-                "HP_XGM_3": [
-                    65672,
-                    65712,
-                    65752
-                ],
-                "HP_XGM_4": [
-                    65673,
-                    65713,
-                    65753
-                ]
-            }
-        },
         "B_Hull": {
             "barbettes": {
                 "HP_XGM_1": [
@@ -25348,92 +25417,28 @@
                 ]
             }
         },
-        "B2_Artillery": {
-            "HP_XGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            }
-        },
-        "A3_Artillery": {
-            "HP_XGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            }
-        },
-        "B1_Artillery": {
-            "HP_XGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            }
-        },
-        "A1_Artillery": {
-            "HP_XGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
-            },
-            "HP_XGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 1000000.0
-                }
+        "C_Hull": {
+            "barbettes": {
+                "HP_XGM_1": [
+                    65670,
+                    65710,
+                    65750
+                ],
+                "HP_XGM_2": [
+                    65671,
+                    65711,
+                    65751
+                ],
+                "HP_XGM_3": [
+                    65672,
+                    65712,
+                    65752
+                ],
+                "HP_XGM_4": [
+                    65673,
+                    65713,
+                    65753
+                ]
             }
         },
         "C1_Artillery": {
@@ -25458,7 +25463,29 @@
                 }
             }
         },
-        "C2_Artillery": {
+        "B2_Artillery": {
+            "HP_XGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            }
+        },
+        "B3_Artillery": {
             "HP_XGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 1000000.0
@@ -25502,7 +25529,7 @@
                 }
             }
         },
-        "A2_Artillery": {
+        "A1_Artillery": {
             "HP_XGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 1000000.0
@@ -25524,7 +25551,73 @@
                 }
             }
         },
-        "B3_Artillery": {
+        "A3_Artillery": {
+            "HP_XGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            }
+        },
+        "C2_Artillery": {
+            "HP_XGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            }
+        },
+        "B1_Artillery": {
+            "HP_XGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            },
+            "HP_XGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 1000000.0
+                }
+            }
+        },
+        "A2_Artillery": {
             "HP_XGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 1000000.0
@@ -25807,6 +25900,11 @@
             }
         }
     },
+    "PASA006_Independence_1945": {
+        "A_Hull_1944": {
+            "barbettes": {}
+        }
+    },
     "PGSB910_Grossdeutschland": {
         "A_Hull": {
             "barbettes": {
@@ -25836,7 +25934,7 @@
                 ]
             }
         },
-        "A2_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 20000.0
@@ -25858,7 +25956,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "A2_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 20000.0
@@ -25976,7 +26074,7 @@
                 ]
             }
         },
-        "A2_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 20000.0
@@ -25998,7 +26096,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "A2_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 20000.0
@@ -26088,28 +26186,6 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "AB2_Artillery": {
-            "HP_GGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_GGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_GGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_GGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            }
-        },
         "AB1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
@@ -26129,6 +26205,28 @@
             "HP_GGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
+                }
+            }
+        },
+        "AB2_Artillery": {
+            "HP_GGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_GGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_GGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_GGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
                 }
             }
         }
@@ -26158,7 +26256,7 @@
                 ]
             }
         },
-        "A_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -26792,6 +26890,14 @@
             }
         }
     },
+    "PBSS108_Sturdy": {
+        "A_Hull": {
+            "barbettes": {}
+        },
+        "B_Hull": {
+            "barbettes": {}
+        }
+    },
     "PJSC205_Agano": {
         "A_Hull": {
             "barbettes": {
@@ -27060,6 +27166,47 @@
             "barbettes": {}
         }
     },
+    "PBSC710_Monmouth": {
+        "A_Hull": {
+            "barbettes": {
+                "HP_BGM_2": [
+                    65671,
+                    131207,
+                    65711,
+                    65751
+                ],
+                "HP_BGM_3": [
+                    65672,
+                    131208,
+                    65712,
+                    65752
+                ],
+                "HP_BGM_1": [
+                    65670,
+                    131206,
+                    65710,
+                    65750
+                ]
+            }
+        },
+        "A_Artillery": {
+            "HP_BGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 7500.0
+                }
+            },
+            "HP_BGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 7500.0
+                }
+            },
+            "HP_BGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 7500.0
+                }
+            }
+        }
+    },
     "PRSC107_Schors": {
         "A_Hull": {
             "barbettes": {
@@ -27109,7 +27256,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -27131,7 +27278,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -27390,10 +27537,10 @@
         "A_Hull": {
             "barbettes": {}
         },
-        "C_Hull": {
+        "B_Hull": {
             "barbettes": {}
         },
-        "B_Hull": {
+        "C_Hull": {
             "barbettes": {}
         }
     },
@@ -27523,16 +27670,142 @@
         }
     },
     "PASC024_Phoenix_1917": {
-        "A_Hull_1917": {
+        "B_Hull_1924": {
             "barbettes": {}
         },
-        "B_Hull_1924": {
+        "A_Hull_1917": {
             "barbettes": {}
         },
         "C_Hull_1938": {
             "barbettes": {}
         },
         "B2_152_53": {
+            "HP_AGM_8": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_7": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_6": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            }
+        },
+        "A2_152_53": {
+            "HP_AGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_6": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            }
+        },
+        "C2_152_53": {
+            "HP_AGM_10": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_9": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_8": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_7": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_6": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_AGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            }
+        },
+        "B1_152_50": {
             "HP_AGM_8": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -27606,133 +27879,7 @@
                 }
             }
         },
-        "A2_152_53": {
-            "HP_AGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_6": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            }
-        },
-        "B1_152_50": {
-            "HP_AGM_8": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_7": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_6": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            }
-        },
         "C1_152_50": {
-            "HP_AGM_10": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_9": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_8": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_7": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_6": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_AGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            }
-        },
-        "C2_152_53": {
             "HP_AGM_10": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -28177,7 +28324,7 @@
                 ]
             }
         },
-        "C_Hull": {
+        "B_Hull": {
             "barbettes": {
                 "HP_JGM_2": [
                     65671,
@@ -28211,7 +28358,7 @@
                 ]
             }
         },
-        "B_Hull": {
+        "C_Hull": {
             "barbettes": {
                 "HP_JGM_2": [
                     65671,
@@ -28418,10 +28565,10 @@
         }
     },
     "PASA013_Essex_1945": {
-        "A_Hull_1943": {
+        "B_Hull_1945": {
             "barbettes": {}
         },
-        "B_Hull_1945": {
+        "A_Hull_1943": {
             "barbettes": {}
         }
     },
@@ -28473,7 +28620,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -28490,7 +28637,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -28553,7 +28700,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_FGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -28570,7 +28717,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_FGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -28841,7 +28988,7 @@
                 ]
             }
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -28863,7 +29010,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -29304,7 +29451,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -29321,7 +29468,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 5000.0
@@ -29848,7 +29995,7 @@
                 ]
             }
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -29865,7 +30012,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -29879,6 +30026,93 @@
             "HP_BGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
+                }
+            }
+        }
+    },
+    "PZSC108_Harbin": {
+        "A_Hull": {
+            "barbettes": {
+                "HP_ZGM_2": [
+                    65671,
+                    65711,
+                    65751
+                ],
+                "HP_ZGM_3": [
+                    65672,
+                    65712,
+                    65752
+                ],
+                "HP_ZGM_1": [
+                    65670,
+                    65710,
+                    65750
+                ],
+                "HP_ZGM_4": [
+                    65673,
+                    65713,
+                    65753
+                ],
+                "HP_ZGM_5": [
+                    65674,
+                    65714,
+                    65754
+                ]
+            }
+        },
+        "B_Hull": {
+            "barbettes": {
+                "HP_ZGM_2": [
+                    65671,
+                    65711,
+                    65751
+                ],
+                "HP_ZGM_3": [
+                    65672,
+                    65712,
+                    65752
+                ],
+                "HP_ZGM_1": [
+                    65670,
+                    65710,
+                    65750
+                ],
+                "HP_ZGM_4": [
+                    65673,
+                    65713,
+                    65753
+                ],
+                "HP_ZGM_5": [
+                    65674,
+                    65714,
+                    65754
+                ]
+            }
+        },
+        "AB1_Artillery": {
+            "HP_ZGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_ZGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_ZGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_ZGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_ZGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
                 }
             }
         }
@@ -30098,7 +30332,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -30140,7 +30374,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_GGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -30184,10 +30418,10 @@
         }
     },
     "PXSD002_Benson_1945_H2017": {
-        "A_Hull_1938": {
+        "A_Hull": {
             "barbettes": {}
         },
-        "AB1_Artillery": {
+        "A1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -30759,7 +30993,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_WGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -30776,7 +31010,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_WGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -30863,7 +31097,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -30890,7 +31124,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -31025,7 +31259,7 @@
                 ]
             }
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -31042,7 +31276,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -31335,7 +31569,7 @@
         }
     },
     "PXSB008_North_Carolina_H2018": {
-        "A_Hull_1942": {
+        "B_Hull": {
             "barbettes": {
                 "HP_AGM_1": [
                     65670,
@@ -31357,7 +31591,7 @@
                 ]
             }
         },
-        "AB1_Artillery": {
+        "B_Artillery": {
             "HP_AGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -31516,6 +31750,110 @@
                 "HP_RGM_9": []
             }
         },
+        "A1_Artillery": {
+            "HP_RGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_RGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_RGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_RGM_6": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_RGM_7": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_RGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_RGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_RGM_8": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_RGM_9": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            },
+            "HP_RGM_10": {
+                "HitLocationArtillery": {
+                    "maxHP": 3750.0
+                }
+            }
+        },
+        "A2_Artillery": {
+            "HP_RGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_3": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_6": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_7": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_4": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_5": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_8": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_9": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_RGM_10": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        },
         "B2_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
@@ -31588,58 +31926,6 @@
                 }
             }
         },
-        "A2_Artillery": {
-            "HP_RGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_6": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_7": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_8": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_9": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_RGM_10": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
         "B1_Artillery": {
             "HP_RGM_2": {
                 "HitLocationArtillery": {
@@ -31707,58 +31993,6 @@
                 }
             },
             "HP_RGM_14": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            }
-        },
-        "A1_Artillery": {
-            "HP_RGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_RGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_RGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_RGM_6": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_RGM_7": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_RGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_RGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_RGM_8": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_RGM_9": {
-                "HitLocationArtillery": {
-                    "maxHP": 3750.0
-                }
-            },
-            "HP_RGM_10": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
                 }
@@ -31920,7 +32154,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -31942,7 +32176,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_JGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -32008,7 +32242,7 @@
                 ]
             }
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_IGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -32025,7 +32259,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_IGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -32068,7 +32302,7 @@
                 ]
             }
         },
-        "C_Hull": {
+        "B_Hull": {
             "barbettes": {
                 "HP_XGM_1": [
                     65670,
@@ -32092,7 +32326,7 @@
                 ]
             }
         },
-        "B_Hull": {
+        "C_Hull": {
             "barbettes": {
                 "HP_XGM_1": [
                     65670,
@@ -32521,23 +32755,6 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B1_Artillery": {
-            "HP_BGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_BGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_BGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            }
-        },
         "A1_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
@@ -32550,6 +32767,23 @@
                 }
             },
             "HP_BGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            }
+        },
+        "B1_Artillery": {
+            "HP_BGM_2": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_BGM_1": {
+                "HitLocationArtillery": {
+                    "maxHP": 2000.0
+                }
+            },
+            "HP_BGM_4": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
                 }
@@ -33018,7 +33252,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_WGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -33030,7 +33264,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_WGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -33269,7 +33503,7 @@
                 ]
             }
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -33296,7 +33530,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_BGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 7500.0
@@ -33336,7 +33570,7 @@
         "B_Hull": {
             "barbettes": {}
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_WGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -33353,7 +33587,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_WGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 2000.0
@@ -33559,7 +33793,7 @@
                 ]
             }
         },
-        "B_Artillery": {
+        "A_Artillery": {
             "HP_FGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -33576,7 +33810,7 @@
                 }
             }
         },
-        "A_Artillery": {
+        "B_Artillery": {
             "HP_FGM_3": {
                 "HitLocationArtillery": {
                     "maxHP": 3750.0
@@ -33868,93 +34102,6 @@
             "HP_FGM_2": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
-                }
-            }
-        }
-    },
-    "PZSC108_Harbin": {
-        "A_Hull": {
-            "barbettes": {
-                "HP_ZGM_2": [
-                    65671,
-                    65711,
-                    65751
-                ],
-                "HP_ZGM_3": [
-                    65672,
-                    65712,
-                    65752
-                ],
-                "HP_ZGM_1": [
-                    65670,
-                    65710,
-                    65750
-                ],
-                "HP_ZGM_4": [
-                    65673,
-                    65713,
-                    65753
-                ],
-                "HP_ZGM_5": [
-                    65674,
-                    65714,
-                    65754
-                ]
-            }
-        },
-        "B_Hull": {
-            "barbettes": {
-                "HP_ZGM_2": [
-                    65671,
-                    65711,
-                    65751
-                ],
-                "HP_ZGM_3": [
-                    65672,
-                    65712,
-                    65752
-                ],
-                "HP_ZGM_1": [
-                    65670,
-                    65710,
-                    65750
-                ],
-                "HP_ZGM_4": [
-                    65673,
-                    65713,
-                    65753
-                ],
-                "HP_ZGM_5": [
-                    65674,
-                    65714,
-                    65754
-                ]
-            }
-        },
-        "AB1_Artillery": {
-            "HP_ZGM_2": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_ZGM_3": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_ZGM_1": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_ZGM_4": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
-                }
-            },
-            "HP_ZGM_5": {
-                "HitLocationArtillery": {
-                    "maxHP": 2000.0
                 }
             }
         }
@@ -34295,7 +34442,7 @@
                 ]
             }
         },
-        "B1_Artillery": {
+        "A1_Artillery": {
             "HP_FGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
@@ -34307,7 +34454,7 @@
                 }
             }
         },
-        "A1_Artillery": {
+        "B1_Artillery": {
             "HP_FGM_1": {
                 "HitLocationArtillery": {
                     "maxHP": 10000.0
